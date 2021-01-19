@@ -31,12 +31,12 @@ img{
 .header-logo{
     width: 20%;
 }
-.header-logo h1{
-    font-size: 65px;
-    font-family: Roboto Slab;
-    color: #fff;
+.header-logo h1 {
+	font-size: 60px;
+	font-family: Roboto Slab;
+	color: #fff;
+	margin-bottom: 0;
 }
-
 .header-menu{
     width: 80%;}
 .header-menu ul{
@@ -85,17 +85,18 @@ img{
 	margin-bottom: 10px;
 	text-align: left;
 }
-p{
-    font-size: 16px;
-    font-family: Roboto Slab;
-    line-height: 30px;
+p {
+	font-family: Roboto Slab;
+	font-size: 16px;
+	line-height: 30px;
+	padding-right: 35px;
 }
 .content a{}
-.content span{
-    display: inline-block;
-    color: #686363;
-    font-size: 22px;
-    font-family: Roboto Slab;
+.content span {
+	display: inline-block;
+	color: #686363;
+	font-size: 16px;
+	font-family: Roboto Slab;
 }
 
 .button {
@@ -135,9 +136,22 @@ p{
     border-radius: 8px;
 }
 
-.content-img img:hover{
-    box-shadow: 2px 2px 15px 0 rgb(151, 144, 144);
-    transform: translate(-10px, -10px);
+.content-img img:hover {
+	
+	transform: translate(-10px, -10px);	
+}
+
+.css1:hover{
+	transform: translate(-10px, -10px) !important;
+	box-shadow: 6px 10px 20px 0 rgba(213, 205, 205, 0.5);
+}
+.css2:hover{
+	transform: translate(10px, -10px) !important;
+	box-shadow: 6px 10px 20px 0 rgba(213, 205, 205, 0.5);
+}
+.css3:hover{
+	transform: translate(-10px, 10px) !important;
+	box-shadow: 6px 10px 20px 0 rgba(213, 205, 205, 0.5);
 }
 
 /* Partner-Section-CSS */
@@ -205,7 +219,10 @@ p {
 .fixed-content img {
 	width: 350px;
 	margin-top: 40px;
+	transition: .4s;
+	cursor: pointer;
 }
+
 
 /* Result-Section-CSS */
 
@@ -321,8 +338,17 @@ h4 {
 .content1 span {
 	display: inline-block;
 	color: #e8e3e3;
-	font-size: 22px;
+	font-size: 16px;
 	font-family: Roboto Slab;
+}
+
+.content1-img img{
+	transition: .4s;
+	cursor: pointer;
+}
+.content1-img img:hover{
+	
+	transform: translate(10px, 10px);
 }
 
 .button1 {
